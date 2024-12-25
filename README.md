@@ -1,4 +1,4 @@
-# DreamWeaver-Client
+# Dream-Weavers (Client)
 
 
 
@@ -9,12 +9,10 @@ Dreamweave is an intuitive app designed to help users manage their tasks, share 
 
 **Technologies used :**
 ---------------------------------------------------
-- HTML
-- CSS
-- JavaScript
-- EJS
-- Node.js
-- Express.js
+- React 
+- JSX
+- State
+
 
 **Getting started :**
 ----------------------------------------------------
@@ -25,20 +23,25 @@ Dreamweave is an intuitive app designed to help users manage their tasks, share 
 
 **Full Entity Relationship Diagram:**
 ----------------------------------------------------
-![Alt text](ERD.pnG)
+![ERD](ERD.pnG)
 
 **Component Hierarchy Diagram:**
 ----------------------------------------------------
+![Component](.pnG)
 
 **Wireframe :**
 ----------------------------------------------------
-![Alt text](1.pnG)
+Sign up / login page :
+![login](1.pnG)
 
-![Alt text](2.pnG)
+Home page :
+![home](2.pnG)
 
-![Alt text](3.pnG)
+Profile page :
+![profile](3.pnG)
 
-![Alt text](4.pnG)
+Dreams page : 
+![dreams](4.pnG)
 
 **Final product :**
 ----------------------------------------------------
