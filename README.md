@@ -13,7 +13,7 @@ Dreamweave is an intuitive app designed to help users manage their tasks, share 
 [Trello](https://trello.com/invite/b/676bf69b20ad5fa300965e9e/ATTIf6cc6cb3e5213ef90505a3a7c6fd555d8457F81E/dreamweavers)
 **Full Entity Relationship Diagram:**
 ----------------------------------------------------
-![ERD](ERD.png)
+![ERD](img/ERD.png)
 **Component Hierarchy Diagram:**
 ----------------------------------------------------
 ![Component](5.png)
