@@ -16,15 +16,15 @@ Dreamweave is an intuitive app designed to help users manage their tasks, share 
 ![ERD](img/ERD.png)
 **Component Hierarchy Diagram:**
 ----------------------------------------------------
-![Component](5.png)
+![Component](img/5.png)
 **Wireframe :**
 ----------------------------------------------------
 Sign up / login page :
-![login](1.png)
+![login](img/1.png)
 Home page :
-![home](2.png)
+![home](img/2.png)
 Profile page :
-![profile](3.png)
+![profile](img/3.png)
 Dreams page :
 ![dreams](4.png)
 **Final product :**
