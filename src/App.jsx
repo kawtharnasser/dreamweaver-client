@@ -1,5 +1,7 @@
 import './App.css'
+
 import { useState } from 'react' 
+
 import { Route, Routes } from 'react-router-dom'
 
 import Nav from './components/Nav'
@@ -21,7 +23,6 @@ import EditPost from './pages/EditPost'
 
 //task imports
 import Dreams from './pages/Dreams'
-
 
 function App() {
   const [user,setUser] = useState(null)
