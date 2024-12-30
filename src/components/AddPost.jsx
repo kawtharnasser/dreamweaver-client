@@ -1,11 +1,11 @@
 import { useNavigate } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import axios from 'axios'
-const AddPost = () => {
+const AddPost = (props) => {
   let navigate = useNavigate()
   const initialState = {
-    profilePic: '',
-    username: '',
+    profilePic: '', //of user
+    username: '', //of user
     description: '',
     postImg: ''
   }
@@ -19,7 +19,28 @@ const AddPost = () => {
     let response = await axios.post('http://localhost:3001/addpost', postState)
     setPostState(initialState)
   }
-  return
+  return (
+    <form onSubmit={handleSubmit}>
+      <label htmlFor="description">Post Description:</label>
+      <textarea
+        id="description"
+        cols="30"
+        rows="10"
+        onChange={handleChange}
+        value={postState.description}
+      ></textarea>
+      <label htmlFor="category">Select Category</label>
+      <select id="category" onChange={handleChange} value={postState.category}>
+        //need to edit this
+        <option value="study">Study</option>
+        <option value="fitness">Fitness</option>
+        <option value="motivation">Motivation</option>
+        <option value="general">General</option>
+      </select>
+
+      <button type="submit">Send</button>
+    </form>
+  )
 }
 
 export default AddPost
