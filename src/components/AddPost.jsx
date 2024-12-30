@@ -31,7 +31,7 @@ const AddPost = (props) => {
       ></textarea>
       <label htmlFor="category">Select Category</label>
       <select id="category" onChange={handleChange} value={postState.category}>
-        //need to edit this
+        {/* //need to edit this */}
         <option value="study">Study</option>
         <option value="fitness">Fitness</option>
         <option value="motivation">Motivation</option>
