@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import axios from 'axios'
-const AddPost = (props) => {
+const AddPost = ({ posts, setPosts }) => {
   let navigate = useNavigate()
   const initialState = {
     profilePic: '', //of user
@@ -16,7 +16,7 @@ const AddPost = (props) => {
   }
   const handleSubmit = async (event) => {
     event.preventDefault()
-    let response = await axios.post('http://localhost:3001/addpost', postState)
+    let response = await axios.post('http://localhost:3001/posts', postState)
     setPostState(initialState)
   }
   return (
