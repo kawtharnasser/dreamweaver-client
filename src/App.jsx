@@ -1,5 +1,5 @@
 import './App.css'
-
+import { useState } from 'react' 
 import { Route, Routes } from 'react-router-dom'
 
 import Nav from './components/Nav'
@@ -24,10 +24,20 @@ import Dreams from './pages/Dreams'
 
 
 function App() {
+  const [user,setUser] = useState(null)
+
+  const handleLogOut = () =>{
+    setUser(null)
+    localStorage.clear()
+  }
+
   return(
     <div>
       <header>
-        <Nav />
+        <Nav user={user}
+        handleLogOut={handleLogOut}/>
+        
+
       </header>
 
       <Routes>
